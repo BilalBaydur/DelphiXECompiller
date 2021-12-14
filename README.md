@@ -6,8 +6,11 @@ Bu dosya ile derlemenin ihtiyaç duydugu parametreleri belirleriz. Not defteri i
 İlk önce bu dosya içinde belirtmiş olduğumuz yolları projeyi kaydettiğiniz yere göre düzenleyin.
 
 -N0F:\Compiller\DCU : DCU dosyalarının oluşturulacağı dizin
+
 -LNF:\Compiller\DCP : DCP dosyalarının oluşturulacağı dizin
+
 -LEF:\Compiller\EXE : Bpl dosyalarının oluşturulacağı dizin
+
 -EF:\Compiller\EXE  : Exe'nin çıkartılacağı dizin
 
 # Projeyi iki şekilde test edebilirsiniz.
