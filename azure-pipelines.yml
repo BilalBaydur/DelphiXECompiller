@@ -1,0 +1,21 @@
+trigger:
+- master
+
+pool:
+  name: default
+  displayName: Test projesi (Delphi xE)  
+  
+steps:
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |           
+      Write-Output "Test projesi derleniyor"
+      #Eğer derlenecek proje dosyası ana dizinde değil ise projenin olduğu konuma odaklanmak gerekir. 
+      #cd $(Build.SourcesDirectory)\TestCompiller       
+      #-LU parametresi varsa derlemede kullanan paketleri belirtmek için kullanılır.
+      #-E parametresi çalıştırılabilir çıktınınatılacağı yeri belirtir
+      #Build server üzerinde ki DCC32.exe yolu verilmeli      
+      F:\Compiller\DelphiXE\DCC150\DCC32.EXE -Z -M TestCompiller.dpr "-LU" -E"F:\Compiller\EXE\"
+
+        
