@@ -1,7 +1,7 @@
 # DelphiXECompiller
 Delphi projesini komut satırı veya azure devops ortamında nasıl derleyeceğinizi gösteren basit bir uygulama
 
-#dcc32.cfg yapılandırması
+# dcc32.cfg yapılandırması
 Bu dosya ile derlemenin ihtiyaç duydugu parametreleri belirleriz. Not defteri ile açarak düzenleyebilirsiniz.
 İlk önce bu dosya içinde belirtmiş olduğumuz yolları projeyi kaydettiğiniz yere göre düzenleyin.
 
@@ -10,7 +10,7 @@ Bu dosya ile derlemenin ihtiyaç duydugu parametreleri belirleriz. Not defteri i
 -LEF:\Compiller\EXE : Bpl dosyalarının oluşturulacağı dizin
 -EF:\Compiller\EXE  : Exe'nin çıkartılacağı dizin
 
-#Projeyi iki şekilde test edebilirsiniz.
+# Projeyi iki şekilde test edebilirsiniz.
 1. test.bat dosyasını çift tıklayarak
 2. Azure Devops ortamını oluşturarak. Bu biraz daha karmaşık gelebilir. 
    
