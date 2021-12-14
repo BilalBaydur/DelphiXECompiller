@@ -17,8 +17,8 @@ Bu dosya ile derlemenin ihtiyaç duydugu parametreleri belirleriz. Not defteri i
 1. test.bat dosyasını çift tıklayarak
 2. Azure Devops ortamını oluşturarak. Bu biraz daha karmaşık gelebilir. 
    
-    Ben Azure devops server Kullandığım için build server'ı kendim barındırımıştım. Yapmanız gereken 'TestCompiller' isimdeki proje klasörünüzü azure üstündeki bir 
-repository'ye yüklemek. Daha sonra build server üzerinde uygun bir yere, DelphiXE, DCU, DCP, EXE klasörlerini atmalısınız. Sonrasında 'azure-pipelines.yml' dosyasının 
+    Ben Azure devops server kullandığım için build server'ı kendim barındırımıştım. Yapmanız gereken 'TestCompiller' isimdeki proje klasörünüzü azure üstündeki bir 
+repository'e yüklemek. Daha sonra build server üzerinde uygun bir yere, DelphiXE, DCU, DCP, EXE klasörlerini atmalısınız. Sonrasında 'azure-pipelines.yml' dosyasının 
 içeriğini, projenizde oluşturacağınız bir build pipeline içine kopyalayabilirsiniz. Yml dosyası içindeki yolları düzelttiğiniz takdirde, öyle sanıyorum problemsiz bir 
 şekilde kodunuzu derleye bilirsiniz.  
     
